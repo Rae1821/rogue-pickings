@@ -1,0 +1,118 @@
+
+/****** BASE STYLES *******/
+
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/******* GRID *********/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+
+
+/********* HEADER **********/
+
+
+
+header h2 {
+    clear: both;
+    color: #282728;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+}
+
+header h2 span {
+    color: #77a466;
+}
+
+
+/******** NAVIGATION *******/
+
+nav {
+    float: right;
+    padding-top: 20px;
+
+   
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #282728;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+
+/********* TOP SECTION *******/
+
+
+#top h3 {
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+img {
+    clear: both;
+    border-top: 1px solid #77a466;
+    border-bottom: 2px solid #77a466;
+}
+
+#top p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/********** BOTTOM SECTION **********/
+
+#bottom .full-width {
+    border-top: 1px solid #dedbdc;
+    border-bottom: 1px solid #dedbdc;
+}
+
+
+
+#bottom h4 {
+    text-transform: uppercase;
+}
+
+
+#bottom .third-width #specials {
+    color: #77a466;
+    
+    
+}
+
+
+/********** FOOTER **********/
