@@ -22,7 +22,7 @@ font-family: 'Montserrat', sans-serif;
 
 .third-width {
     float: left;
-    width: 400px;
+    width: 350px;
 }
 
 
@@ -73,12 +73,13 @@ nav ul li a {
 
 /********* TOP SECTION *******/
 
-
 #top h3 {
     color: #77a466;
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: left;
 }
 
 img {
@@ -92,6 +93,7 @@ img {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    
 }
 
 /********** BOTTOM SECTION **********/
@@ -99,20 +101,71 @@ img {
 #bottom .full-width {
     border-top: 1px solid #dedbdc;
     border-bottom: 1px solid #dedbdc;
+    margin-top: 20px;
+    
+}
+#bottom #section-one {
+    border-right: 1px solid #dedbdc;
 }
 
+#bottom #section-two {
+    border-right: 1px solid #dedbdc;
+    padding: 10px 25px;
+}
 
+#bottom #section-three {
+    padding: 10px 25px;
+}
 
 #bottom h4 {
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 10px;
     text-transform: uppercase;
 }
 
+#bottom p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-#bottom .third-width #specials {
+#bottom ul {
+    line-height: 35px;
+    padding-left: 10px;
+}
+
+#bottom ul li {
     color: #77a466;
-    
-    
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
 }
 
 
+
+
+
+
+
+
 /********** FOOTER **********/
+
+footer {
+    
+    text-align: center;
+}
+
+footer h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer h5 span {
+    color: #77a466;
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+}
